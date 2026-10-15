@@ -8,6 +8,10 @@ writing numbers, and lets you switch between them at any time:
 | Decimal comma | `1.234,5` |
 | Decimal point | `1,234.5` |
 
+![rechner in the Catppuccin Mocha theme computing 0,1+0,2](examples/catppuccin-mocha.png)
+
+More screenshots are in [examples](examples/).
+
 ## Typing separators: `..` becomes `,`
 
 Whichever notation you use, you can type every number using only the period
@@ -98,3 +102,7 @@ The parser and formatter in `src/calc.rs` have no GTK dependency:
 ```sh
 cargo test
 ```
+
+## License
+
+[MIT](LICENSE)
